@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 15px;
+  margin: 2rem;
+  overflow: hidden;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.SUVs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.cars {
+  padding: 40px;
+}
+
+.cars h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px auto;
+}
+
+.cars p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+
+.cars a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 13px 27px;
+  border-radius: 25px;
+  margin-top: 60px;
+  display: inline-block;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
+
+.SUVs a {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury a {
+  color: hsl(179, 100%, 13%);
+}
+
+.cars a:hover {
+  color: hsl(0, 0%, 95%);
+  background: Transparent;
+}
+
+@media only screen and (max-width: 760px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    margin: 1rem;
+  }
+}
