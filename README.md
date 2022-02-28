@@ -21,7 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/MarcBHaidar/3-column-car-preview-component/blob/main/images/desktop-screenshot.jpg)
+![](https://github.com/MarcBHaidar/3-column-car-preview-component/blob/main/images/mobile-screenshot.jpg)
+
 
 
 
